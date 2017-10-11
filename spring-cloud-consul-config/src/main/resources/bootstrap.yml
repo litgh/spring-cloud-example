@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-consul-config
+  cloud:
+    consul:
+      config:
+        format: yaml
+      host: localhost
+      port: 8500
+  main:
+    web-environment: false

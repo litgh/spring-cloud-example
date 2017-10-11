@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  zipkin:
+    base-url: http://localhost:8080
+    service:
+      name: ${spring.application.name}
+  application:
+    name: spring-cloud-sleuth
